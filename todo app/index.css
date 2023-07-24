@@ -1,0 +1,92 @@
+
+
+.main{
+  width:40%;
+    margin: 20px 90px;
+    height: 60%;
+    text-align: center;
+    border: 2px solid red;
+  float: right;
+ 
+   
+}
+.head{
+  text-transform: capitalize;
+color: orangered;
+}
+body{
+  background-image: url(b2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.shead{color: yellow;}
+form{
+    margin-bottom: 20px;
+}
+.tomato{
+  margin: 20px 40px;
+  float: left;
+    width:40%;
+    height:50%;
+  padding: 20px;
+  border-radius: 50%;
+border: 2px solid yellow;
+background-color: black;
+animation: slideIn 2s linear infinite;
+}
+@keyframes slideIn {
+  0%, 100% {
+    transform: translateX(0); /* Start and end the animation with no translation (original position). */
+  }
+  50% {
+    transform: translateX(100px);
+    
+     /* Slide to the right by 200 pixels at 50% of the animation. */
+  }
+}
+img{
+    width:500px;
+    margin: auto;
+    background-color: transparent;
+    height:300px;
+    border-radius: 50%;
+    animation: rotate infinite 2s linear;
+}
+@keyframes rotate {
+  from {
+    transform:scale(0.5); /* Start the animation at 0 degrees. */
+  }
+  to {
+    transform: scale(1.0); /* Rotate the element to 360 degrees. */
+  }
+}
+#task{
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+button{
+    width: 20%;
+    background-color: green;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+  }
+  ul{
+    list-style: none;
+  }
+  li{
+    width: 80%;
+    margin: auto;
+    background-color:rgb(180, 210, 201);
+    padding:5px;
+    margin-bottom: 10px;
+  }
+  li:hover{
+    font-weight: bolder;
+    background-color:rgb(228, 91, 11);
+  }
+ 
