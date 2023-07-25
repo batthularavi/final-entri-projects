@@ -1,0 +1,162 @@
+  *{
+    margin: 0px;
+   
+  }
+  
+  
+  
+  body{ 
+    background-color: lightgreen;}
+
+  h1{ margin-top: 10px;
+    color:orangered;
+
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: underline;
+ object-fit: fill;
+transform: skew(20deg);}
+.bro{background: transparent;
+  text-decoration: none;
+
+}
+  .collapse {
+    display: flex;
+    justify-content: center;
+    background-color:goldenrod;
+    background-color: transparent;
+   
+}
+.navbar{  position: sticky;
+    top: 0px;
+    z-index:1;
+    border: 5px,dotted,gray;}
+   
+.container-fluid {
+   
+   
+    background-color: rgb(205, 50, 50);
+}
+.navbar-nav {
+    margin:10px;
+    background-color: transparent;
+
+}
+.nav-link{
+    text-transform: capitalize;
+    text-decoration:underline;
+    font-weight: bolder;
+    font-family:cursive;
+    color: black;
+    margin-left: 50px;
+    font-size: 20px;
+    background-color: transparent;
+    
+  }
+  .nav-link:hover{
+  color: white;
+
+  }
+  .row{
+    margin: 10px;
+  }
+  .card{ height: 70%;
+    width: 100%;
+    border-radius: 20%;
+    margin-top: 20px;
+}
+.card:hover{
+  background-color: light;
+}
+  .image{
+    width: 100%;
+   height: 50%;
+   border-radius: 20%;
+  }
+ 
+  .card-text{
+    text-align: justify;
+    height: 50%;
+  }
+  .CAPTION{
+    font-size: 50px;
+    color:orangered;
+    background: linear-gradient(black,white,gray);
+    border: 5px black outset;
+    position: relative;
+    top: 20px;
+    left: 30px;
+border-bottom:2px groove black ;
+text-transform: capitalize;
+
+  }
+ 
+  .pimage{
+    max-width: 100%;
+    min-height: 50%;
+    
+     }
+     .container{
+      background-color: brown;
+      width: 100%;
+      height: 50% ;
+      display: block;
+     }
+     .order{
+      color: black;
+     }
+     /* form */
+     body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+      margin: 0;
+      padding: 0;
+  }
+  
+  .container {
+      max-width: 600px;
+      margin: 50px auto;
+      background-color: black;
+      padding: 20px;
+      color: white;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+ 
+  
+  label {
+      display: block;
+      margin-bottom: 5px;
+  }
+  
+  input, select {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+  }
+  
+  button {
+      background-color: #007bff;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+  }
+  
+  button:hover {
+      background-color: #0056b3;
+  }
+  
+  #output {
+      margin-top: 20px;
+      padding: 10px;
+      color: #fff;
+  
+      border-radius: 5px;
+  }
+  
